@@ -3,24 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Here i'll be trying to improve what should result in a correct responsive web
-        design">
+        <meta name="description" content="Here i'll be trying to improve what should results in a correct responsive web
+            design">
         <meta name="keywords" content="responsive, flexbox, illusion, it, tech, css, html, learning">
         <meta name="author" content="Ramiro Angel">
         <title>Illusion. Improving my responsive page.</title>
         <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="">
-        <link rel="stylesheet" href="">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/fonts.css">
     </head>
     <body>
-        <header>
-            <div>
+        <header id="header">
+            <div class="top-menu">
                 <p>Rosario</p>
                 <h1>Illusion</h1>
                 <p>24/10/2020</p>
             </div>
-            <div>
+            <div class="nav-bar">
                 <a href="">Developing</a>
                 <a href="">Mobile</a>
                 <a href="">Videogames</a>
@@ -30,64 +32,78 @@
                 <a href="">Fintech</a>
             </div>
         </header>
-        <main>
-            <div>
-                <h2><a href="">Xiaomi presents the new Xiaomi Mi Mix Alpha.</a></h2>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-                in some form, by injected humour, or randomised words which don't look even slightly believable. If you 
-                are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden 
-                in the middle of text.
-                </p>
-            </div>
-            <div>
-                <h3><a href="">Iphone 12 will be available in five colours.</a></h3>
-                <p>Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour 
-                and the like).
-                </p>
-            </div>
-            <div>
-                <h3><a href="">Playstation 5 is about to be released.</a></h3>
-                <p>
-                    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour 
-                    and the like).
-                </p>
-            </div>
-            <div>
-                <h4><a href="">Virtual Reality is a step closer to become mainstream.</a></h4>
-                <p> It was popularised in the 1960s with the release of Letraset sheets</p>
-            </div>
-            <div>
-                <h4><a href="">The growth of the Fintechs in 2020.</a></h4>
-                <p> It was popularised in the 1960s with the release of Letraset sheets</p>
-            </div>
-            <div>
-                <h5><a href="">Crypto Decentralized Finances' 2020 Fever.</a></h5>
-                <p>
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-                    took a galley of type and scrambled it to make a type specimen book.
-                </p>
-            </div>
-            <div>
-                <h5><a href="">Nintendo's 2021 Convention.</a></h5>
-                <p>
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-                    took a galley of type and scrambled it to make a type specimen book.
-                </p>
+        <main id="main">
+            <div id="main-container">
+                <div id="upper-main-container">
+                    <div id="left-container">
+                        <div class="first-article">
+                            <h2><a href="">Xiaomi presents the new Xiaomi Mi Mix Alpha.</a></h2>
+                            <p>
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered 
+                                alteration in some form, by injected humour, or randomised words which don't look even slightly 
+                                believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't 
+                                anything embarrassing hidden in the middle of text.
+                            </p>
+                        </div>
+                        <div id="secondary-news">
+                            <div class="second-article">
+                                <h3><a href="">Iphone 12 will be available in five colours.</a></h3>
+                                <p>
+                                    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected 
+                                    humour and the like).
+                                </p>
+                            </div>
+                            <div class="third-article">
+                                <h3><a href="">Playstation 5 is about to be released.</a></h3>
+                                <p>
+                                    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected 
+                                    humour and the like).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="side-bar">
+                        <div class="fourth-article">
+                            <h4><a href="">Virtual Reality is a step closer to become mainstream.</a></h4>
+                            <p>It was popularised in the 1960s with the release of Letraset sheets</p>
+                        </div>
+                        <div class="fifth-article">
+                            <h4><a href="">The growth of the Fintechs in 2020.</a></h4>
+                            <p>It was popularised in the 1960s with the release of Letraset sheets</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sixth-article">
+                    <h5><a href="">Crypto Decentralized Finances' 2020 Fever.</a></h5>
+                    <p>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+                        printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </div>
+                <div class="seventh-article">
+                    <h5><a href="">Nintendo's 2021 Convention.</a></h5>
+                    <p>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+                        printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </div>
             </div>
         </main>
-        <footer>
-            <div>
-                <h6>Illusion</h6>
+        <footer id="footer">
+            <div class="return-to-index">
+                <h6><a href="">Illusion</a></h6>
             </div>
-            <div>
+            <div class="social-media">
                 <h6>Contact with us</h6>
-                <a href="">Facebook</a>
-                <a href="">Instagram</a>
-                <a href="">Twitter</a>
-                <a href="">LinkedIN</a>
-                <a href="">Youtube</a>
+                <p>
+                    <a href="">Facebook</a>
+                    <a href="">Instagram</a>
+                    <a href="">Twitter</a>
+                    <a href="">LinkedIN</a>
+                    <a href="">Youtube</a>
+                </p> 
             </div>
-            <div>
+            <div class="botom-menu">
                 <a href="">Terms of Use</a>
                 <a href="">About</a>
                 <a href="">Privacy Policy</a>
@@ -96,8 +112,8 @@
                 <a href="mailto:contact@illusion.com">Contact</a>
                 <a href="">Work with us</a>
             </div>
-            <div>
-                <p>&copy; Illusion 2020 Copyright. All rights reserved.</p>
+            <div class="copyright">
+                <p>Illusion 2020 &copy; Copyright. All rights reserved.</p>
             </div>
         </footer>
     </body>

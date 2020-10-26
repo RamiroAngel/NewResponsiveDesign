@@ -1,0 +1,18 @@
+header{
+    padding: ;
+}
+.top-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+}
