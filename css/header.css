@@ -3,6 +3,11 @@
     flex-direction: column;
     align-items: center;
 }
+img{
+    display: flex;
+    width: 5%;
+    height: auto;
+}
 .nav-bar{
     display: none;
 }
@@ -10,6 +15,9 @@
 
 
 @media only screen and (min-width: 768px){
+    img{
+        display: none;
+    }
     .top-menu{
         display: flex;
         flex-wrap: wrap;
