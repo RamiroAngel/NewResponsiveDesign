@@ -9,6 +9,11 @@
     flex-direction: column;
     width: 70%;
 }
+.img-xiaomi{
+    display: flex;
+    width: 70%;
+    height: auto;
+}
 .first-article{
     display: flex;
     flex-wrap: wrap;
@@ -19,10 +24,20 @@
     flex-wrap: wrap;
     flex-direction: row;
 }
+.img-iphone{
+    display: flex;
+    width: 50%;
+    height: auto;
+}
 .second-article{
     display: flex;
     flex-wrap: wrap;
     flex: 50%;
+}
+.img-ps5{
+    display: flex;
+    width: 50%;
+    height: auto;
 }
 .third-article{
     display: flex;
@@ -33,13 +48,24 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: space-around;
     width: 30%;
+}
+.img-vr{
+    display: flex;
+    width: 70%;
+    height: auto;
 }
 .fourth-article{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+.img-fintech{
+    display: flex;
+    width: 100%;
+    height: auto;
 }
 .fifth-article{
     display: flex;
@@ -49,9 +75,4 @@
 
 
 
-@media only screen and (min-width: 768px) {
-    #main-container{
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
+@media only screen and (min-width: 768px) {}
