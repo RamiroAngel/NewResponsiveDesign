@@ -7,7 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 70%;
+    width: 100%;
 }
 .img-xiaomi{
     display: flex;
@@ -32,7 +32,7 @@
 .second-article{
     display: flex;
     flex-wrap: wrap;
-    flex: 50%;
+    flex-direction: row;
 }
 .img-ps5{
     display: flex;
@@ -42,7 +42,7 @@
 .third-article{
     display: flex;
     flex-wrap: wrap;
-    flex: 50%;
+    flex-direction: row;
 }
 #side-bar{
     display: flex;
@@ -75,4 +75,26 @@
 
 
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    #upper-main-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #left-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 70%;
+    }
+    .second-article{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 50%;
+    }
+    .third-article{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 50%;
+    }
+}
