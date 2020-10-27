@@ -94,15 +94,34 @@
             "Septiembre", "Octubre", "Noviembre", "Diciembre"] mostrar por consola los meses 5 y 11 
             (utilizar console.log)                                                                                   */
 
+            var monthsA = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 
+                'Octubre', 'Noviembre', 'Diciembre'];
+            
+            console.log(monthsA[5], monthsA[10]); /* I don't understand why if write [11], the console shows Diciembre */
+
 
         /*B) Ordenar el array de meses alfabéticamente y mostrarlo por consola (utilizar sort).                      */
+            
+            var monthsB = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 
+                'Octubre', 'Noviembre', 'Diciembre'];
 
+            console.log(monthsB.sort());
 
         /*C) Agregar un elemento al principio y al final del array (utilizar unshift y push).                        */
-
+            var monthsC = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 
+                'Octubre', 'Noviembre', 'Diciembre'];
+            monthsC.unshift('Ramiro');
+            monthsC.push("Angel");
+            
+            console.log('array', monthsC);
 
         /*D) Quitar un elemento del principio y del final del array (utilizar shift y pop).                          */
+            var monthsD = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 
+            'Octubre', 'Noviembre', 'Diciembre'];
+            monthsD.shift();
+            monthsD.pop();
 
+            console.log(monthsD);
 
         /*E) Invertir el orden del array (utilizar reverse).                                                         */
 
