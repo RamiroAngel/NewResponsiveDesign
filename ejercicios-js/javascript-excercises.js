@@ -116,19 +116,45 @@
             console.log('array', monthsC);
 
         /*D) Quitar un elemento del principio y del final del array (utilizar shift y pop).                          */
+            
             var monthsD = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 
-            'Octubre', 'Noviembre', 'Diciembre'];
+                'Octubre', 'Noviembre', 'Diciembre'];
             monthsD.shift();
             monthsD.pop();
 
             console.log(monthsD);
 
         /*E) Invertir el orden del array (utilizar reverse).                                                         */
+            
+    
+    /********************* Which would be the correct way to write this? Number 1 or number 2? **********************/
+            
+                /** Number 1 **/
+            var monthsE = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 
+                'Octubre', 'Noviembre', 'Diciembre'];
+            monthsE.reverse();
 
+            console.log(monthsE)
+                
+                /** Number 2 
+            var monthsE = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 
+                'Octubre', 'Noviembre', 'Diciembre'];
+
+            console.log(monthsE.reverse());**/
+
+    /********************* ------------------------------------------------------------------  **********************/        
 
         /*F) Unir todos los elementos del array en un único string donde cada mes este separado por un guión - 
             (utilizar join).                                                                                         */
 
+            var monthsF = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 
+                'Octubre', 'Noviembre', 'Diciembre'];
+            
+            console.log(monthsF.join('-'));
 
         /*G) Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).            */
 
+            var monthsG = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 
+                'Octubre', 'Noviembre', 'Diciembre'];
+            
+            console.log(monthsG.slice(4,11))
