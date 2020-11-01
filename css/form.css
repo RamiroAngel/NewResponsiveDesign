@@ -1,41 +1,32 @@
-.columns{
+/*.columns{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-}
+} 
+
+I disvored that if I do this every left and right column's elements/row doesn't show one below the other
+
+*/ 
+
 .left-column{
     display: flex;
     flex-wrap: wrap;
-    text-align: start;
 }
 .right-column{
     display: flex;
     flex-wrap: wrap;
-    text-align: start;
 }
 .send-button{
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
 }
 
 @media only screen and (min-width: 768px){
     .columns{
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-    .left-column{
-        display: flex;
-        flex: 50%;
-    }
-    .right-column{
-        display: flex;
-        flex: 50%;
-    }
-    .send-button{
-        display: flex;
-        flex-direction: column;
         justify-content: space-around;
+    }
+    .submit-button{
+        display: flex;
+        justify-content: center;
     }
 }

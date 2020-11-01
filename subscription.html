@@ -36,26 +36,58 @@
         <main>
             <div class="columns">
                 <div class="left-column">
-                    <ul>
-                        <li>Nombre completo: Debe tener más de 6 letras y al menos un espacio entre medio.</li>
-                        <li>Email: debe tener un formato de email válido.</li>
-                        <li>Repetir email:</li>
-                        <li>Contraseña: Al menos 8 caracteres, formados por letras y números.</li>
-                        <li>Edad: Número entero mayor o igual a 18.</li>
-                    </ul>
+                    <form>
+                        <ul>
+                            <li>
+                                <label for="fullname">Full name:</label>
+                                <p><input type="text" id="fullname" name="fullname"></p>
+                            </li>
+                            <li>
+                                <label for="email">Email:</label>
+                                <p><input type="text" id="email" name="email"></p>
+                            </li>
+                            <li>
+                                <label for="rptemail">Repeat email:</label>
+                                <p><input type="text" id="rptemail" name="rptemail"></p>
+                            </li>    
+                            <li>
+                                <label for="pswrd">Password:</label>
+                                <p><input type="text" id="pswrd" name="pswrd"></p>
+                            </li>
+                            <li>
+                                <label for="age">Age:</label>
+                                <p><input type="text" id="age" name="age"></p>
+                            </li>
+                        </ul> 
                 </div>
                 <div class="right-column">
-                    <ul>
-                        <li>Teléfono: Número de al menos 7 dígitos, no aceptar espacios, guiones ni paréntesis.</li>
-                        <li>Dirección: Al menos 5 caracteres, con letras, números y un espacio en el medio.</li>
-                        <li>Ciudad: Al menos 3 caracteres.</li>
-                        <li>Código Postal: Al menos 3 caracteres.</li>
-                        <li>DNI: Número de 7 u 8 dígitos.</li>
-                    </ul>
+                        <ul>
+                            <li>
+                                <label for="phone">Phone number:</label>
+                                <p><input type="text" id="phone" name="phone"></p> 
+                            </li>
+                            <li>
+                                <label for="address">Address::</label>
+                                <p><input type="text" id="adress" name="address"></p>
+                            </li>
+                            <li>
+                                <label for="city">City::</label>
+                                <p></p><input type="text" id="city" name="city"> 
+                            </li>
+                            <li>
+                                <label for="postal">Postal Code:</label>
+                                <p><input type="text" id="postal" name="postal"></p>
+                            </li>
+                            <li>
+                                <label for="id">ID:</label>
+                                <p><input type="text" id="id" name="id"></p>
+                            </li>
+                        </ul>             
+                    </form>
                 </div>
-                <div class="send-button">
-                    <button>Enviar</button>
-                </div>
+            </div>
+            <div class="submit-button">
+                <input type="submit">
             </div>
         </main>
         <footer id="footer">
