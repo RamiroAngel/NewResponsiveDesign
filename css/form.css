@@ -10,14 +10,17 @@ I disvored that if I do this every left and right column's elements/row doesn't 
 .left-column{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .right-column{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
-.send-button{
+.submit-button{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 @media only screen and (min-width: 768px){
