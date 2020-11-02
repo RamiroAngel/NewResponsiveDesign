@@ -7,6 +7,13 @@ I disvored that if I do this every left and right column's elements/row doesn't 
 
 */ 
 
+h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
 .left-column{
     display: flex;
     flex-wrap: wrap;
@@ -17,7 +24,7 @@ I disvored that if I do this every left and right column's elements/row doesn't 
     flex-wrap: wrap;
     justify-content: center;
 }
-.submit-button{
+.submitButton{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
