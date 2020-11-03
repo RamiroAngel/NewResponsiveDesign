@@ -6,6 +6,13 @@
 I disvored that if I do this every left and right column's elements/row doesn't show one below the other
 
 */
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../img/blackground.png);
+}
 
 h1{
     display: flex;

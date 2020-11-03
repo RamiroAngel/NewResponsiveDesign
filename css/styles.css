@@ -1,19 +1,17 @@
 header{
     background-image: url(../img/stars.png);
     background-size: contain;
-    color: whitesmoke;    
+    color: whitesmoke;
 }
 main{
     background-image: url(../img/blackground.png);
-    color: whitesmoke;    
+    color: whitesmoke;
 }
 footer{
     background-image: url(../img/stars.png);
     background-size: contain;
-    color: whitesmoke;    
+    color: whitesmoke;
 }
-
-
 a{
     text-decoration: none;
     color: darkseagreen;
