@@ -174,3 +174,42 @@ window.onload = function(){
             document.getElementById('spanId').className = 'removedText';
     }
 }
+
+/* I tried so many different ways, but i cannot make it works
+
+1)
+
+    //Function that shows an alert with the entire information if everything got validated:
+    document.getElementById('submitBtn').addEventListener('click', showSubmitedInfo);
+        function showSubmitedInfo(){
+            document.getElementById('submitBtn').innerHTML =
+            valFullName()',
+            valEmail(),
+            valPassword(),
+            valRepeatPassword(),
+            valAge(),
+            validPhone(),
+            valAddress(),
+            valCity(),
+            valZipCode(),
+            valId()
+
+
+
+2)
+
+    document.getElementById('submitBtn').addEventListener('click', submitedInfo);
+    function submitedInfo(){
+        var name = document.getElementById('fullName').value;
+        var Email = document.getElementById('email').value;
+        var Password = document.getElementById('password').value;
+        var RepeatPassword = document.getElementById('repeat').value;
+        var PhoneNumber = document.getElementById('phone').value;
+        var Address = document.getElementById('address').value;
+        var City = document.getElementById('city').value;
+        var PostalCode = document.getElementById('postalcode').value;
+        var DNI = document.getElementById('dni').value;
+        var Age = document.getElementById('age').value;
+        alert(`${FullName}\r\n${Email}\r\n${Password}\r\n${RepeatPassword}\r\n${PhoneNumber}\r\n${Address}\r\n${City}\r\n${PostalCode}\r\n${DNI}\r\n${Age}`);
+    }
+*/
