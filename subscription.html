@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="./css/styles.css">
         <link rel="stylesheet" href="./css/fonts.css">
         <link rel="stylesheet" href="./css/form.css">
-        <script src="./javascript/subscription.js"></script>
+        <script src="./js/subscription-v2.js"></script>
     </head>
     <body>
         <header id="header">
@@ -37,64 +37,74 @@
             <h1>Subscribe to Illusion and get the lattest tech news.</h1>
             <div class="columns">
                 <div class="left-column">
-                    <form>
+                    <form id="formContainer">
                         <ul>
                             <li>
-                                <label for="fullname">Full name:</label>
-                                <p><input type="text" id="fullname" name="fullname"></p>
+                                <label for="fullName" class="below">Full name:</label>
+                                <input type="text" id="fullName" name="fullname">
+                                <span id="spanName" class="removedText"></span>
                             </li>
                             <li>
-                                <label for="email">Email:</label>
-                                <p><input type="text" id="email" name="email"></p>
+                                <label for="email" class="below">Email:</label>
+                                <input type="text" id="email" name="email">
+                                <span id="spanEmail" class="removedText"></span>
                             </li>
                             <li>
-                                <label for="password">Password:</label>
-                                <p><input type="text" id="password" name="password"></p>
-                            </li>    
-                            <li>
-                                <label for="repeatPassword">Repeat password:</label>
-                                <p><input type="text" id="repeatPassword" name="repeatPassword"></p>
+                                <label for="password" class="below">Password:</label>
+                                <input type="text" id="password" name="password">
+                                <span id="spanPassword" class="removedText"></span>
                             </li>
                             <li>
-                                <label for="age">Age:</label>
-                                <p><input type="text" id="age" name="age"></p>
+                                <label for="repeatPassword" class="below">Repeat password:</label>
+                                <input type="text" id="repeatPassword" name="repeatPassword">
+                                <span id="spanRepeatPassword" class="removedText"></span>
                             </li>
-                        </ul> 
+                            <li>
+                                <label for="age" class="below">Age:</label>
+                                <input type="text" id="age" name="age">
+                                <span id="spanAge" class="removedText"></span>
+                            </li>
+                        </ul>
                 </div>
                 <div class="right-column">
                         <ul>
                             <li>
-                                <label for="phone">Phone number:</label>
-                                <p><input type="text" id="phone" name="phone"></p> 
+                                <label for="phone" class="below">Phone number:</label>
+                                <input type="text" id="phone" name="phone">
+                                <span id="spanPhone" class="removedText"></span>
                             </li>
                             <li>
-                                <label for="address">Address:</label>
-                                <p><input type="text" id="adress" name="address"></p>
+                                <label for="address" class="below">Address:</label>
+                                <input type="text" id="adress" name="address">
+                                <span id="spanAddress" class="removedText"></span>
                             </li>
                             <li>
-                                <label for="city">City:</label>
-                                <p><input type="text" id="city" name="city"></p>
+                                <label for="city" class="below">City:</label>
+                                <input type="text" id="city" name="city">
+                                <span id="spanCity" class="removedText"></span>
                             </li>
                             <li>
                             <li>
-                                <label for="zip-code">Zip Code:</label>
-                                <p><input type="text" id="zipCode" name="zipCode"></p>
+                                <label for="zipCode" class="below">Zip Code:</label>
+                                <input type="text" id="zipCode" name="zipCode">
+                                <span id="spanZipCode" class="removedText"></span>
                             </li>
                             <li>
-                                <label for="id">ID:</label>
-                                <p><input type="text" id="id" name="id"></p>
+                                <label for="id" class="below">ID:</label>
+                                <input type="text" id="id" name="id">
+                                <span id="spanId" class="removedText"></span>
                             </li>
-                        </ul>             
+                        </ul>
                     </form>
                 </div>
             </div>
             <div class="submitButton">
-                <input type="submit">
+                <input type="submit" id="submitBtn">
             </div>
         </main>
         <footer id="footer">
             <div class="return-to-index">
-                <h6><a href="">Illusion</a></h6>
+                <h6><a href="./index.html">Illusion</a></h6>
             </div>
             <div class="social-media">
                 <h6>Contact with us</h6>
@@ -104,7 +114,7 @@
                     <a href="">Twitter</a>
                     <a href="">LinkedIN</a>
                     <a href="">Youtube</a>
-                </p> 
+                </p>
             </div>
             <div class="botom-menu">
                 <a href="">Terms of Use</a>
